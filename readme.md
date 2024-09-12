@@ -7,7 +7,7 @@ This project provides a basic example of CRUD (Create, Read, Update, Delete) ope
 The base URL for the API is:
 
 ```
-https://restful-tayo.onrender.com/api/v1/users
+https://restful-jesutayo.onrender.com/api/v1/users
 ```
 
 ## Available Endpoints
@@ -42,13 +42,17 @@ https://restful-tayo.onrender.com/api/v1/users
     "success": true,
     "numOfUsers": 3,
     "users": [
+       {
+    "success": true,
+    "numOfUsers": 3,
+    "users": [
         {
-            "_id": "66e1977dd4628c83570bce5b",
-            "fullname": "Jon oe",
-            "description": "Deveoper",
-            "projectdone": 50,
-            "createdAt": "2024-09-11T13:13:33.937Z",
-            "updatedAt": "2024-09-11T13:13:33.937Z",
+            "_id": "66e2dd3aa5051e5f1cc2f7e2",
+            "fullname": "Ade bayo",
+            "description": "Software Engineer",
+            "projectdone": 30,
+            "createdAt": "2024-09-12T12:23:22.677Z",
+            "updatedAt": "2024-09-12T12:23:22.677Z",
             "__v": 0
         },
         {
@@ -71,6 +75,8 @@ https://restful-tayo.onrender.com/api/v1/users
         }
     ]
 }
+    ]
+}
 ```
 
 ---
@@ -86,7 +92,7 @@ https://restful-tayo.onrender.com/api/v1/users
 - **Example Request**:
 
 ```
-GET https://restful-tayo.onrender.com/api/v1/users/66e1977dd4628c83570bce5b
+GET https://restful-jesutayo.onrender.com/api/v1/users/66e1977dd4628c83570bce5b
 ```
 
 - **Response** (example):
@@ -131,7 +137,7 @@ GET https://restful-tayo.onrender.com/api/v1/users/66e1977dd4628c83570bce5b
 - **Example Request**:
 
 ```
-PATCH https://restful-tayo.onrender.com/api/v1/users/123456789
+PATCH https://restful-jesutayo.onrender.com/api/v1/users/123456789
 ```
 
 - **Response**: {
@@ -157,7 +163,7 @@ PATCH https://restful-tayo.onrender.com/api/v1/users/123456789
 - **Example Request**:
 
 ```
-DELETE https://restful-tayo.onrender.com/api/v1/users/123456789
+DELETE https://restful-jesutayo.onrender.com/api/v1/users/123456789
 ```
 
 - **Response**: User deleted.
