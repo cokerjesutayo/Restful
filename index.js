@@ -22,7 +22,7 @@ app.use((req,res)=>{
 
 const startServer=async()=>{
     try{
-        await mongoose.connect (process.env.mongo_url , {dbName:"Restful"});
+        await mongoose.connect(process.env.MONGO_URL, { dbName: "Restful" });
         app.listen(PORT,()=>    {
             console.log(`app running ...`);
         })
